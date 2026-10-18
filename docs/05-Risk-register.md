@@ -61,16 +61,6 @@ O plano de prevenção busca reduzir a probabilidade de um risco acontecer. O pl
 | **R07** | Animal acessar partes perigosas | Projetar uma estrutura que proteja a eletrônica e as partes móveis. | Retirar o equipamento de uso até corrigir a falha de proteção. |
 | **R08** | Indisponibilidade de integrante | Documentar atividades e compartilhar conhecimentos entre os integrantes. | Redistribuir as tarefas e reorganizar o cronograma. |
 
-**Registro de Riscos** 
 
-| ID | Categoria | Risco | EAP | P | I | P × I | Estratégia | Responsável | Status |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | ----- | :---: |
-| **R01** | Técnico | Medição imprecisa do sensor de peso | 3.2 | 4 | 5 | 20 | Mitigar | Responsável pela instrumentação | Aberto |
-| **R02** | Técnico | Entupimento do mecanismo de dispensação | 3.3 | 4 | 4 | 16 | Mitigar | Responsável pela mecânica | Aberto |
-| **R03** | Cronograma | Atraso na entrega de componentes | 1\. 4 | 3 | 4 | 12 | Mitigar | Responsável pelas aquisições | Aberto |
-| **R04** | Técnico | Falha de comunicação entre ESP32 e aplicativo | 5.1 | 4 | 4 | 16 | Mitigar | Responsável pela integração IoT | Aberto |
-| **R05** | Financeiro | Custos superiores ao orçamento | 1.4 | 3 | 4 | 12 | Mitigar | Gerente do projeto | Aberto |
-| **R06** | Técnico  | Algoritmo nutricional apresentar parâmetros inadequados  | 4.0 | 3 | 5 | 15 |  Mitigar  | Responsável pelo algoritmo nutricional  | Aberto  |
-| **R07** | Operacional  | Animal conseguir acessar partes perigosas do equipamento  | 3.5  | 1 | 5 | 5 | Evitar/Mitigar   |  Responsável pela mecânica  | Aberto  |
-| **R08** | Recursos humanos  | Indisponibilidade de integrante responsável por uma atividade  | 1.0 | 3 | 4 | 12 | Mitigar  | Gerente do projeto  | Aberto  |
+
 
