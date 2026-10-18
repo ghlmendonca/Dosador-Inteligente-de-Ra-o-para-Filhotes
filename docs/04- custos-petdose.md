@@ -58,15 +58,5 @@ da solução.
 -   Serviços de validação técnica;
 -   Manutenção e ajustes durante os testes.
 
-### Comparação entre CAPEX e OPEX
-
-  CAPEX                   OPEX
-  ----------------------- ----------------------------------------
-  Placa ESP32             Hospedagem da aplicação
-  Célula de carga         Banco de dados em nuvem
-  Servo motor             Energia elétrica dos testes
-  Fonte de alimentação    Reposição de materiais consumíveis
-  Reservatório de ração   Transporte para aquisição de materiais
-  Equipamentos de teste   Serviços de validação técnica
 
 
