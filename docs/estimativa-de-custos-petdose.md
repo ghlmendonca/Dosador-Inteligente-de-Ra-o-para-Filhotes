@@ -1,0 +1,256 @@
+# Dosador Inteligente de Ração para Filhotes --- Petdose
+
+## 1. Objetivos
+
+**Pergunta central:** quanto custará executar o projeto Petdose?
+
+O projeto Petdose tem como objetivo desenvolver um dosador inteligente
+de ração para filhotes, utilizando ESP32, sensores, mecanismo de
+dispensação, aplicativo e comunicação IoT. Agora, precisamos transformar
+as entregas previstas na EAP em recursos financeiros necessários para
+construir e testar o protótipo.
+
+Objetivos específicos:
+
+-   Identificar os recursos necessários para desenvolver o Petdose.
+-   Diferenciar CAPEX e OPEX.
+-   Relacionar os custos às entregas da EAP.
+-   Construir um orçamento preliminar.
+-   Utilizar estimativas para componentes eletrônicos, mecânicos e de
+    software.
+-   Identificar custos esquecidos e riscos financeiros.
+-   Validar os valores por meio de cotações.
+-   Consolidar a planilha de custos do projeto.
+
+## 2. CAPEX --- Capital Expenditure
+
+CAPEX representa os investimentos em equipamentos, componentes e
+materiais utilizados na construção e implantação do protótipo.
+
+### Exemplos no projeto Petdose
+
+-   Placa ESP32;
+-   Célula de carga;
+-   Módulo HX711;
+-   Servo motor ou motorredutor;
+-   Driver de acionamento;
+-   Fonte de alimentação;
+-   Componentes de proteção elétrica;
+-   Reservatório de ração;
+-   Estrutura física do dosador;
+-   Materiais para fabricação de peças mecânicas;
+-   Equipamentos de teste, quando precisarem ser adquiridos.
+
+## 3. OPEX --- Operational Expenditure
+
+OPEX corresponde aos gastos associados à execução, operação e manutenção
+da solução.
+
+### Exemplos no projeto Petdose
+
+-   Hospedagem da aplicação;
+-   Banco de dados em nuvem;
+-   Serviços de comunicação IoT;
+-   Energia elétrica durante os testes;
+-   Materiais consumíveis;
+-   Reposição de componentes danificados;
+-   Frete e transporte;
+-   Serviços de validação técnica;
+-   Manutenção e ajustes durante os testes.
+
+### Comparação entre CAPEX e OPEX
+
+  CAPEX                   OPEX
+  ----------------------- ----------------------------------------
+  Placa ESP32             Hospedagem da aplicação
+  Célula de carga         Banco de dados em nuvem
+  Servo motor             Energia elétrica dos testes
+  Fonte de alimentação    Reposição de materiais consumíveis
+  Reservatório de ração   Transporte para aquisição de materiais
+  Equipamentos de teste   Serviços de validação técnica
+
+## 4. Orçamento do projeto Petdose
+
+Uma lista de preços não é um orçamento completo. Precisamos registrar o
+recurso, a quantidade, o valor unitário, o custo total e a entrega da
+EAP correspondente.
+
+A tabela apresenta uma estimativa preliminar para a construção de uma
+unidade do protótipo.
+
+### Tabela 1 --- CAPEX: equipamentos e materiais
+
+  ----------------------------------------------------------------------------------
+  Item           Tipo          Quantidade         Valor Total estimado Entrega/EAP
+                                               unitário                
+                                               estimado                
+  -------------- ---------- ------------- ------------- -------------- -------------
+  ESP32          CAPEX                  1    R\$ 45--90     R\$ 45--90 3.1 ---
+                                                                       Unidade de
+                                                                       controle
+
+  Célula de      CAPEX                  1    R\$ 20--45     R\$ 20--45 3.2 ---
+  carga                                                                Sistema de
+                                                                       pesagem
+
+  Módulo HX711   CAPEX                  1    R\$ 10--25     R\$ 10--25 3.2 ---
+                                                                       Sistema de
+                                                                       pesagem
+
+  Servo motor ou CAPEX                  1   R\$ 35--120    R\$ 35--120 3.3 ---
+  motorredutor                                                         Mecanismo de
+                                                                       dispensação
+
+  Driver de      CAPEX                  1    R\$ 15--45     R\$ 15--45 3.3 ---
+  acionamento                                                          Sistema de
+                                                                       acionamento
+
+  Fonte de       CAPEX                  1    R\$ 30--70     R\$ 30--70 3.4 ---
+  alimentação                                                          Circuito de
+                                                                       alimentação
+
+  Componentes de CAPEX         1 conjunto    R\$ 20--50     R\$ 20--50 3.4 ---
+  proteção                                                             Circuito
+  elétrica                                                             eletrônico
+
+  Protoboard ou  CAPEX                  1    R\$ 15--40     R\$ 15--40 3.4 ---
+  placa de                                                             Circuito
+  montagem                                                             eletrônico
+
+  Fios,          CAPEX         1 conjunto    R\$ 20--50     R\$ 20--50 3.4 ---
+  conectores e                                                         Circuito
+  terminais                                                            eletrônico
+
+  Reservatório   CAPEX                  1    R\$ 30--80     R\$ 30--80 3.5 ---
+  de ração                                                             Estrutura
+                                                                       física
+
+  Material para  CAPEX         1 conjunto   R\$ 60--180    R\$ 60--180 3.5 ---
+  fabricação da                                                        Estrutura
+  estrutura                                                            física
+
+  Peças          CAPEX         1 conjunto   R\$ 30--100    R\$ 30--100 3.3 ---
+  mecânicas para                                                       Controle de
+  calha e                                                              fluxo
+  comporta                                                             
+
+  Parafusos e    CAPEX         1 conjunto    R\$ 15--40     R\$ 15--40 3.5 ---
+  suportes                                                             Estrutura
+                                                                       física
+
+  Multímetro     CAPEX                  1   R\$ 50--120    R\$ 50--120 6.4 ---
+  básico                                                               Testes de
+                                                                       segurança
+
+  Balança de     CAPEX                  1   R\$ 40--100    R\$ 40--100 6.1 ---
+  referência                                                           Testes de
+                                                                       precisão
+
+  **Total                                                        **R\$ 
+  estimado**                                              455--1.155** 
+  ----------------------------------------------------------------------------------
+
+### Tabela 2 --- OPEX: despesas operacionais
+
+Considerando um período de desenvolvimento e testes de três meses:
+
+  -----------------------------------------------------------------------------------
+  Item           Tipo          Quantidade         Valor Total estimado Entrega/EAP
+                                               unitário                
+                                               estimado                
+  -------------- ---------- ------------- ------------- -------------- --------------
+  Energia        OPEX             3 meses    R\$ 15/mês         R\$ 45 6.0 --- Testes
+  elétrica                                                             e validação
+
+  Materiais      OPEX          1 conjunto   R\$ 50--150    R\$ 50--150 3.0 ---
+  consumíveis e                                                        Hardware
+  reposição                                                            
+
+  Insumos para   OPEX          1 conjunto   R\$ 30--100    R\$ 30--100 3.0 ---
+  montagem e                                                           Hardware
+  soldagem                                                             
+
+  Banco de dados OPEX             3 meses R\$ 0--50/mês     R\$ 0--150 5.2 --- Banco
+  em nuvem                                                             de dados
+
+  Hospedagem da  OPEX             3 meses R\$ 0--40/mês     R\$ 0--120 2.0 ---
+  aplicação                                                            Aplicação PWA
+
+  Transporte     OPEX           1 reserva   R\$ 30--100    R\$ 30--100 1.4 ---
+  para aquisição                                                       Aquisições
+  de materiais                                                         
+
+  Consulta       OPEX          1 consulta  R\$ 150--400   R\$ 150--400 4.0/6.5 ---
+  técnica                                                              Algoritmo e
+  veterinária,                                                         validação
+  se necessária                                                        
+
+  Documentação e OPEX          1 conjunto    R\$ 20--60     R\$ 20--60 7.0 ---
+  impressão                                                            Documentação
+
+  **Total                                                        **R\$ 
+  estimado**                                              325--1.125** 
+  -----------------------------------------------------------------------------------
+
+Os valores de hospedagem e banco de dados podem ser zero caso sejam
+utilizados serviços gratuitos. A consulta veterinária é uma provisão
+estimada, que poderá ser eliminada se houver parceria acadêmica sem
+custo.
+
+## 5. Fórmula de cálculo
+
+**Custo do item = Quantidade × Valor unitário**
+
+### Exemplo
+
+A equipe precisa adquirir uma placa ESP32 por R\$ 60,00.
+
+Custo total = 1 × R\$ 60,00
+
+**Custo total = R\$ 60,00**
+
+## 6. Orçamento preliminar do Petdose
+
+Considerando os valores estimados nas tabelas anteriores, temos:
+
+  Categoria                          Tipo          Valor mínimo       Valor máximo
+  ---------------------------------- --------- ---------------- ------------------
+  Equipamentos e materiais           CAPEX           R\$ 455,00       R\$ 1.155,00
+  Despesas operacionais              OPEX            R\$ 325,00       R\$ 1.125,00
+  **Subtotal**                                   **R\$ 780,00**   **R\$ 2.280,00**
+  Reserva para contingências (15%)   Reserva         R\$ 117,00         R\$ 342,00
+  **Orçamento preliminar**                       **R\$ 897,00**   **R\$ 2.622,00**
+
+**Resultado:** o orçamento preliminar do Petdose fica entre **R\$ 897,00
+e R\$ 2.622,00**, considerando os itens apresentados, três meses de
+execução e uma reserva de contingência de 15%.
+
+Esse valor não inclui a remuneração da equipe de desenvolvimento, que
+poderá ser apresentada separadamente como custo econômico do projeto.
+
+## 7. Construção da planilha de custos
+
+  ------------------------------------------------------------------------------------------
+  Código   Item          Tipo     Quantidade   Valor       Total      Fornecedor   Data da
+  EAP                                          unitário                            cotação
+  -------- ------------- -------- ------------ ----------- ---------- ------------ ---------
+  3.1      ESP32         CAPEX    1            A pesquisar A calcular A definir    A definir
+
+  3.2      Célula de     CAPEX    1            A pesquisar A calcular A definir    A definir
+           carga                                                                   
+
+  3.2      Módulo HX711  CAPEX    1            A pesquisar A calcular A definir    A definir
+
+  3.3      Servo motor   CAPEX    1            A pesquisar A calcular A definir    A definir
+
+  3.4      Fonte de      CAPEX    1            A pesquisar A calcular A definir    A definir
+           alimentação                                                             
+
+  3.5      Material da   CAPEX    1 conjunto   A pesquisar A calcular A definir    A definir
+           estrutura                                                               
+
+  2.0      Hospedagem    OPEX     3 meses      A pesquisar A calcular A definir    A definir
+
+  5.2      Banco de      OPEX     3 meses      A pesquisar A calcular A definir    A definir
+           dados                                                                   
+  ------------------------------------------------------------------------------------------
